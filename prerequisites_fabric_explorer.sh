@@ -24,4 +24,6 @@ sudo mv go/ /usr/local
 export GOPATH=/usr/local/go
 export PATH=$PATH:$GOPATH/bin
 echo 'Required dependencies Installed'
+apt-get update
+apt-get install postgresql postgresql-contrib
 echo 'Please Logout and login again'
