@@ -15,7 +15,7 @@ pip install docker-compose
 echo 'Installing Git and CURL'
 apt-get install git curl
 echo 'Installing NodeJS'
-curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
+curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
 apt-get install nodejs
 echo 'Installing GO Language'
 wget https://dl.google.com/go/go1.11.2.linux-amd64.tar.gz
