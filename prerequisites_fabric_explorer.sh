@@ -5,7 +5,7 @@ wget https://download.docker.com/linux/ubuntu/dists/xenial/pool/stable/amd64/doc
 sudo dpkg -i docker*.deb
 apt-get install -f
 echo 'adding user to docker group'
-sudo usermod -aG docker playground
+sudo usermod -aG docker explorer
 echo 'Installing Python pip'
 apt-get install python-pip
 echo 'Installed pip version:'
