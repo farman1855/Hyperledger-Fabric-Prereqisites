@@ -6,12 +6,8 @@ sudo dpkg -i docker*.deb
 sudo apt-get install -f
 echo 'adding user to docker group'
 sudo usermod -aG docker explorer
-echo 'Installing Python pip'
-sudo apt-get install python-pip
-echo 'Installed pip version:'
-pip --version
 echo 'Installing Docker Composer'
-sudo pip install docker-compose
+sudo apt install docker-compose
 echo 'Installing Git and CURL'
 sudo apt-get install git curl
 echo 'Installing NodeJS'
